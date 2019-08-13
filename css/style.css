@@ -1,0 +1,87 @@
+/*Global*/
+
+/*Scroll Arrow*/
+.scroll-arrow{
+  width: 44px;
+  height: 44px;
+  background-color: #686A6C;
+  float: right;
+  border-radius: 5px;
+  position: fixed;
+  top: 780px;
+  right: 40px;
+}
+
+.scroll-arrow h4{
+  color: #FFF;
+  text-align: center;
+  padding-top: 15px;
+}
+
+
+/*Header*/
+
+header{
+  width: 1200px;
+  height: 68px;
+  font-family: 'Asap', sans-serif;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+}
+
+.logo h1{
+  color: #FFF;
+  font-size: 22px;
+  margin-left: 45px;
+}
+
+.logo span{
+  color: #72CDF4;
+}
+
+/*Header Nav*/
+
+nav{
+  margin-right: 100px;
+}
+
+nav span{
+  font-size: 14px;
+  letter-spacing: 1.2px;
+}
+
+nav .divider{
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+/*Main Banner*/
+
+#main-banner{
+  width: 1200px;
+  height: 730px;
+  padding-top: 66px;                           /*Added to compensate for fixed header*/
+  background-color: #d3d3d3;
+}
+
+.slogan{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slogan h2{
+  color: #fff;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 66px;
+  text-align: center;
+  margin-top: 230px;
+}
+
+/*.slogan img{
+  (CUP MARGIN)
+} */
