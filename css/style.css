@@ -1,14 +1,15 @@
 /*Global*/
 
+
 /*Scroll Arrow*/
+
 .scroll-arrow{
   width: 44px;
   height: 44px;
   background-color: #686A6C;
-  float: right;
-  border-radius: 5px;
+  border-radius: 4px;
   position: fixed;
-  top: 780px;
+  top: 710px;
   right: 40px;
 }
 
@@ -17,7 +18,6 @@
   text-align: center;
   padding-top: 15px;
 }
-
 
 /*Header*/
 
@@ -33,7 +33,7 @@ header{
   position: fixed;
 }
 
-.logo h1{
+.logo h2{
   color: #FFF;
   font-size: 22px;
   margin-left: 45px;
@@ -65,7 +65,8 @@ nav .divider{
   width: 1200px;
   height: 730px;
   padding-top: 66px;                           /*Added to compensate for fixed header*/
-  background-color: #d3d3d3;
+  background-image: url('../concept art/main-image.jpg');
+  background-repeat: no-repeat;
 }
 
 .slogan{
@@ -78,10 +79,37 @@ nav .divider{
   color: #fff;
   font-family: 'Playfair Display', sans-serif;
   font-size: 66px;
+  font-weight: bold;
   text-align: center;
   margin-top: 230px;
+  text-shadow: -5px 5px 16px #333333;
 }
 
-/*.slogan img{
-  (CUP MARGIN)
-} */
+.slogan img{
+  width: 100px;
+  margin-top: 5px
+}
+
+/*Opening Text*/
+#opening-text{
+  width: 1200px;
+  width: 100%;
+  height: 535px;
+  padding-left: 72px;
+  padding-right: 72px;
+}
+
+#opening-text h2{
+  font-size: 43px;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+#opening-text p{
+  width: 1055px;
+  font-size: 26px;
+  font-family: 'Akkurat Light', sans-serif;
+  line-height: 2;
+}
