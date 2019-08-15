@@ -19,6 +19,25 @@
   padding-top: 15px;
 }
 
+/*Page Header*/
+.page-header{
+  width: 150px;
+  height: 54px;
+  margin-left: 60px;
+  background-color: #000;
+}
+
+.page-header h3{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  letter-spacing: 3px;
+  padding-top: 15px;
+  color: #fff;
+}
+
+
 /*Header*/
 
 header{
@@ -97,6 +116,7 @@ nav .divider{
   height: 535px;
   padding-left: 72px;
   padding-right: 72px;
+  border-bottom: 1px solid #000;
 }
 
 #opening-text h2{
@@ -112,4 +132,54 @@ nav .divider{
   font-size: 26px;
   font-family: 'Akkurat Light', sans-serif;
   line-height: 2;
+}
+
+/*Logo Section*/
+#logo-section{
+  width: 1200px;
+  height: 673px;
+  border-bottom: 1px solid #000;
+}
+
+/*Digital Section*/
+#digital-section{
+  width: 1200px;
+  height: 861px;
+  border-bottom: 1px solid #000;
+}
+
+/*Application Section*/
+#application-section{
+  width: 1200px;
+  height: 864px;
+  border-bottom: 1px solid #000;
+}
+
+/*Print Section*/
+#print-section{
+  width: 1200px;
+  height: 776px;
+  border-bottom: 1px solid #000;
+}
+
+/*Packaging Section*/
+#packaging-section{
+  width: 1200px;
+  height: 908px;
+  border-bottom: 1px solid #000;
+}
+
+/*Case Studies Section*/
+#case-studies-section{
+  width: 1200px;
+  height: 775px;
+  border-bottom: 1px solid #000;
+}
+
+
+
+/*Contact*/
+#contact{
+  width: 1200px;
+  height: 700px;
 }
