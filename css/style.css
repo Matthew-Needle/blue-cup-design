@@ -10,13 +10,14 @@
   border-radius: 4px;
   position: fixed;
   top: 710px;
-  right: 40px;
+  right: 270px;
 }
 
 .scroll-arrow h4{
   color: #FFF;
+  font-size: 24px;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 /*Page Header*/
@@ -112,11 +113,13 @@ nav .divider{
 /*Opening Text*/
 #opening-text{
   width: 1200px;
-  width: 100%;
   height: 535px;
+  border-bottom: 1px solid #000;
+}
+
+#opening-text div{
   padding-left: 72px;
   padding-right: 72px;
-  border-bottom: 1px solid #000;
 }
 
 #opening-text h2{
@@ -148,6 +151,47 @@ nav .divider{
   border-bottom: 1px solid #000;
 }
 
+#digital-section .main-image-section{
+  width: 1080px;
+  height: 546px;
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: #373737;
+}
+
+#digital-section .main-image-section p{
+  color: #fff;
+  font-size: 26px;
+  text-align: center;
+  padding-top: 250px;
+}
+
+#digital-section .title{
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 60px;
+}
+
+#digital-section .text-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+#digital-section .text-content p{
+  width: 512px;
+  color: #ABABAB;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+
 /*Application Section*/
 #application-section{
   width: 1200px;
@@ -155,6 +199,45 @@ nav .divider{
   border-bottom: 1px solid #000;
 }
 
+#application-section .main-image-section{
+  width: 1080px;
+  height: 546px;
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: #373737;
+}
+
+#application-section .main-image-section p{
+  color: #fff;
+  font-size: 26px;
+  text-align: center;
+  padding-top: 250px;
+}
+
+#application-section .title{
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 60px;
+}
+
+#application-section .text-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+#application-section .text-content p{
+  width: 375px;
+  color: #ABABAB;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.5;
+}
 /*Print Section*/
 #print-section{
   width: 1200px;
@@ -175,8 +258,6 @@ nav .divider{
   height: 775px;
   border-bottom: 1px solid #000;
 }
-
-
 
 /*Contact*/
 #contact{
