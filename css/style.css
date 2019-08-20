@@ -38,6 +38,10 @@
   color: #fff;
 }
 
+.text-content span{
+  color: #000;
+  font-weight: 400;
+}
 
 /*Header*/
 
@@ -167,11 +171,11 @@ nav .divider{
 }
 
 #digital-section .title{
-  font-size: 24px;
-  font-family: 'Roboto', sans-serif;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 60px;
+ font-size: 20px;
+ font-family: 'Roboto', sans-serif;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ margin-left: 60px;
 }
 
 #digital-section .text-content{
@@ -185,7 +189,7 @@ nav .divider{
 #digital-section .text-content p{
   width: 512px;
   color: #ABABAB;
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   line-height: 1.5;
@@ -215,11 +219,11 @@ nav .divider{
 }
 
 #application-section .title{
-  font-size: 24px;
-  font-family: 'Roboto', sans-serif;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 60px;
+ font-size: 20px;
+ font-family: 'Roboto', sans-serif;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ margin-left: 60px;
 }
 
 #application-section .text-content{
@@ -235,7 +239,7 @@ nav .divider{
   color: #ABABAB;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
 }
 /*Print Section*/
@@ -245,8 +249,53 @@ nav .divider{
   border-bottom: 1px solid #000;
 }
 
+.magazines{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-top: 55px;
+}
+
+.column{
+  width: 335px;
+  hieght: 635px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cover{
+  width: 335px;
+  height: 400px;
+}
+
+.cover img{
+  width: 335px;
+  height: 400px;
+}
+
+#print-section .title{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+ #print-section .text-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+ #print-section .text-content p{
+  width: 375px;
+  color: #ABABAB;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+}
 /*Packaging Section*/
-#packaging-section{
+#packaging-section {
   width: 1200px;
   height: 908px;
   border-bottom: 1px solid #000;
@@ -257,6 +306,52 @@ nav .divider{
   width: 1200px;
   height: 775px;
   border-bottom: 1px solid #000;
+}
+
+#case-studies-section.magazines{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-top: 55px;
+}
+
+#case-studies-section.column{
+  width: 335px;
+  hieght: 635px;
+  display: flex;
+  flex-direction: column;
+}
+
+#case-studies-section.cover{
+  width: 335px;
+  height: 400px;
+}
+
+#case-studies-section.cover img{
+  width: 335px;
+  height: 400px;
+}
+
+#case-studies-section .title{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+ #case-studies-section .text-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+ #case-studies-section .text-content p{
+  width: 375px;
+  color: #ABABAB;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 /*Contact*/
